@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kenzie.app.MainTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-06-13T14:05:21" hostname="Luiss-MBP.lan" time="0.036">
+  <properties/>
+  <testcase name="createAccountWithNameAccountIdAndBalance()" classname="com.kenzie.app.MainTest" time="0.015"/>
+  <testcase name="canMakeSuccessfulTransfer()" classname="com.kenzie.app.MainTest" time="0.009"/>
+  <testcase name="createAccountWithName()" classname="com.kenzie.app.MainTest" time="0.002"/>
+  <testcase name="createAccountWithNameAndAccountId()" classname="com.kenzie.app.MainTest" time="0.001"/>
+  <testcase name="canMakeDeposit()" classname="com.kenzie.app.MainTest" time="0.001"/>
+  <testcase name="canMakeFailedTransfer()" classname="com.kenzie.app.MainTest" time="0.001"/>
+  <testcase name="canMakeFailingWithdrawal()" classname="com.kenzie.app.MainTest" time="0.001"/>
+  <testcase name="canMakeSuccessfulWithdrawal()" classname="com.kenzie.app.MainTest" time="0.001"/>
+  <testcase name="runMain()" classname="com.kenzie.app.MainTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
