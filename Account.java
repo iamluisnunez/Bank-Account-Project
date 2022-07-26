@@ -1,6 +1,6 @@
-package com.kenzie.app;
 
 import java.util.Locale;
+import java.util.Objects;
 import java.util.Random;
 
 public class Account {
@@ -95,5 +95,18 @@ public class Account {
         else{
             return 0;
         }
+    }
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Account account = (Account) o;
+        return Double.compare(account.balance, balance) == 0 &&
+                userName.equalsIgnoreCase(account.userName) && Objects.equals(accountId, account.accountId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(userName, accountId, balance);
     }
 }
